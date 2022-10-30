@@ -1,0 +1,301 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    
+}
+body{
+    background-image: url('brown.avif');
+    background-size: cover;
+    width: 67%;
+
+}
+header .right nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row; 
+    overflow: hidden;
+    transform: translateY(40%); 
+    margin-left: 438px;
+    position: absolute;
+/* 
+    opacity: 0; */
+}
+header .right nav a{
+    margin: 6px;
+    padding: 0px 17px;
+    color: white;
+    position: relative;
+    transition:all 2s;
+    font-weight: 700;
+
+}
+.a2::before{
+    content: '';
+    height: 3.5px;
+    background-color: rgb(255, 139, 158);
+    border-radius: 5px;
+    z-index: 50;
+    transition: all 1s ;
+    position: absolute;
+    top: 30px;
+    left: 14px;
+    width: 73%;
+
+}
+.a:hover{
+    color:white;
+    transform: translateY(-5px);
+    letter-spacing: 1.5px;
+  
+  }
+  
+  .a2:hover::before{
+      top: 20px;
+  }
+  header .right nav .aa{
+    color: white;
+    border: 1.2px solid white;
+    border-radius: 25px;
+    padding: 5px 12px;
+  }
+header .th1{
+    color: white;
+    border-bottom: 2px solid rgb(255, 174, 25);
+    width: 12%;
+    padding: 3px 5px;
+    border-top-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+    position: relative;
+    top: 3.7rem;
+    left: 5rem;
+    letter-spacing: 2px;
+}
+
+/*fin de menu*/
+
+/*debut de presenter*/
+ .presenter{
+    position: relative;
+    left: 420px; 
+    top: 180px;
+}
+ .presenter img{
+    width: 12%;
+    height: 12%;
+    position: absolute;
+     top: 145px;
+    left: 260px; 
+
+} 
+.presenter h1{
+    color: white;
+    font-weight: 900;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+#btn{
+    background: none;
+    padding: 10px 50px;
+    color: black;
+    border: none;
+    background:linear-gradient( to right, white,white ,rgb(255, 139, 158), rgb(255, 139, 158));
+    position: relative;
+    left: 150px;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 800;
+    top: 20px;
+} 
+/*fin de presenter*/
+
+/*debut de sec1*/
+ .sec1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:row;
+    margin-top: 350px;
+    width: 100%;
+   margin-left: 250px; 
+   
+}
+.fdiv1{
+    display: flex;
+    flex-direction: column;
+    margin: 34px;
+    cursor: pointer;
+}
+ .fdiv1 #img2{
+    width: 104%;
+    height: 20%;
+    
+}
+.fdiv1 #img1{
+    width: 108%;
+    height: 20%;
+}
+.fdiv1 #img3{
+    width: 147%;
+    height: 23%;
+}
+.d1 #img1{
+    position: relative;
+    right: 180px;
+    width: 130%;
+    height: 20%;
+}
+.d3 #img3{
+    position: relative;
+    left: 60px;
+    
+}
+.d2 #img2{
+    position: relative;
+    right: 40px;
+    
+} 
+ .d1 h2{
+    color: white;
+    position: relative;
+    right: 174px;
+    top: 3px;
+}
+.d1 h3{
+    color: rgb(255, 174, 25);
+    position: relative;
+    left: 14px;
+    bottom: 21px;
+}
+.d1 h4{
+    color: white;
+    position: relative;
+    right: 175px;
+    bottom: 5px;
+    font-weight: 700;
+    
+}
+
+.d2 h2{
+    color: white;
+    position: relative;
+    left: -30px;
+    top: 3px;
+}
+.d2 h3{
+    color: rgb(255, 174, 25);
+    position: relative;
+    left:170px;
+    bottom: 21px;
+}
+.d2 h4{
+    color: white;
+    position: relative;
+    right: 29px;
+    bottom: 5px;
+    font-weight: 700;
+    
+}
+
+.d3 h2{
+    color: white;
+    position: relative;
+    left: 70px;
+    top: 3px;
+}
+.d3 h3{
+    color: rgb(255, 174, 25);
+    position: relative;
+    left:250px;
+    bottom: 21px;
+}
+.d3 h4{
+    color: white;
+    position: relative;
+    left: 72px;
+    bottom: 5px;
+    font-weight: 700;
+    
+}
+span{
+    color: white;
+} 
+.video{
+    width: 950px;
+    height: 400px;
+    margin-left: 200px;
+    margin-top: 60px;
+    background-color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+ footer{
+   width: 149.3%;
+   height: 70px;
+   margin-top: 100px;
+   border-top: 2px solid white;
+   background-color: black;
+}
+
+ footer img{
+    width: 32px;
+    height:33px;
+    cursor: pointer;
+   margin: 9px;
+   /* border: 3px solid white; */
+   background-color: white;
+   border-radius: 50%;
+   padding: 5px;
+}
+.pdiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    
+} 
+.fodiv1 h3{
+    color: white;
+    position: relative;
+    left: 23px;
+    top: 13px;
+}
+.fodiv2 img{
+    position: relative;
+    right: 60px;
+    top: 13px;
+}
+/*fin de footer*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

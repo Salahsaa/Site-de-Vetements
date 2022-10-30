@@ -1,0 +1,171 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    
+}
+
+header .right nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    position: absolute;
+    bottom: 570px;
+    left: 300px;
+    transform: translateY(40%); 
+/* 
+    opacity: 0; */
+}
+header .right nav a{
+    margin: 6px;
+    padding: 0px 17px;
+    color: black;
+    transition:all 2s;
+
+}
+.a2::before{
+    content: '';
+    height: 3.5px;
+    /* background-color: yellow; */
+    border-radius: 5px;
+    z-index: 50;
+    transition: all 1s ;
+    position: absolute;
+    top: 30px;
+    left: 14px;
+    width: 73%;
+
+}
+.a:hover{
+    color:white;
+    transform: translateY(-5px);
+    letter-spacing: 1.5px;
+  
+  }
+  
+  .a2:hover::before{
+      top: 20px;
+  }
+  header .right nav .aa{
+    color: black;
+    border: 1.2px solid black;
+    border-radius: 25px;
+    padding: 5px 12px;
+  }
+header .left img{
+    position: relative;
+    top: 3.7rem;
+    left: 5rem;
+}
+/*fin de menu*/
+.content{
+    display: flex;
+    flex-wrap: nowrap;
+   width: 100%;
+   height: 100vh;
+}
+.content .item{
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+   transition: all ease 1s;
+}
+.content .item img{
+    width: 100%;
+    height:100vh; 
+   object-fit: cover;
+   transition: all ease 2s;
+}
+.content .item:hover{
+    width: 170%;
+}
+.content .item .text{
+    position: absolute;
+    left: 0;
+    bottom: -50%;
+   opacity: 0;
+    width: 100%;
+    height: 100%;
+    padding: 50px 50px 100px;
+    color: black;
+    display: flex;
+    align-items: flex-end;
+    transition: all ease 2s;
+}
+.content .item:hover .text{
+    bottom: 0%;
+    opacity: 1;
+}
+.content .item .text h2{
+    color: lightgray;
+    padding: 30px;
+
+}
+.content .item .text h3{
+    color: lightgray;
+    margin-left: -110px;
+}
+/*debut de section 1*/
+.sec1{
+    margin-left: 200px;    
+    margin-top: 100px;
+}
+.sec1 h1{
+    color: black;
+    font-weight: 900;
+    font-size: 40px;
+    letter-spacing: 2px;
+    position: absolute;
+    bottom: 330px;
+}
+.sec1 h2{
+    color: white;
+    font-family:serif;
+    letter-spacing: 2px;
+    margin-top: 7px;
+    margin-left: 20px;
+    position: absolute;
+    bottom: 290px;
+}
+.sec1 #btn1{
+   color: black;
+   background: none;
+   border: 2px solid black;
+   padding: 5px 10px;
+   margin-top: 18px;
+   cursor: pointer;
+   position: absolute;
+    bottom: 250px;
+}
+.sec1 #btn2{
+    color:white;
+    background: none;
+    border: 2px solid white;
+    padding: 5px 10px;
+    margin-top: 18px;
+    margin-left: 15px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 250px;
+    left: 340px;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

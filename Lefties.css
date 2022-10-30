@@ -1,0 +1,380 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    
+}
+body{
+    background-image: url('imgh.jpeg');
+    background-size: cover;
+    width: 94%;
+}
+header .right nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row; 
+    overflow: hidden;
+    transform: translateY(40%); 
+/* 
+    opacity: 0; */
+}
+header .right nav a{
+    margin: 6px;
+    padding: 0px 17px;
+    color: white;
+    position: relative;
+    transition:all 2s;
+     left: 150px;
+}
+.a2::before{
+    content: '';
+    height: 3.5px;
+    background-color: white;
+    border-radius: 5px;
+    z-index: 50;
+    transition: all 1s ;
+    position: absolute;
+    top: 30px;
+    left: 14px;
+    width: 73%;
+
+}
+.a:hover{
+    color:black;
+    transform: translateY(-5px);
+    letter-spacing: 1.5px;
+  
+  }
+  
+  .a2:hover::before{
+      top: 20px;
+  }
+  header .right nav .aa{
+    color: white;
+    border: 1.2px solid white;
+    border-radius: 25px;
+    padding: 5px 12px;
+  }
+header .th1{
+    color: white;
+    border: 3px solid white;
+    width: 13%;
+    padding: 3px 5px;
+    border-top-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+    position: relative;
+    top: 3.7rem;
+    left: 5rem;
+    letter-spacing: 2px;
+}
+
+/*fin de menu*/
+
+/*debut de section 1 */
+.sec1{
+    margin-top: 160px;
+    margin-left: 15px;
+    width: 100%;
+}
+.sec1 h2{
+    text-align: center;
+    color: white;
+    width: 350px;
+    margin-left: 475px;
+    border-radius: 7px;
+    letter-spacing: 1.6px;
+    font-weight: 900;
+    border-bottom: 2px solid white;
+}
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    margin-top: 50px;
+}
+.fille{
+    display: flex;
+    flex-direction: column;
+    width: 22%;
+    height: 200px;
+    margin: 10px;
+
+}
+.fille img{
+    width: 45%;
+    height: 60%;
+    margin-left: 100px;
+    margin-top: 15px;
+    border-radius: 50%;
+}
+.fille h3{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 53px;
+}
+.fille h4{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 53px;
+}
+/*fin de section 1*/
+
+/*debut de section 2*/
+
+.sec2{
+     width: 100%;
+     height: auto;
+     margin-left: 31px;
+     margin-top: 34px;
+}
+.children img{
+    border-radius: 16px;
+}
+.sec2 h2{
+    color: white;
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: 2px;
+    margin-top: 60px;
+}
+.children img{
+    width: 90%;
+    height: 60%;
+    margin-left: 13px;
+    margin-top: 9px;
+}
+.childrens{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.children{
+    width: 22%;
+    height: 300px;
+    margin: 9px;
+    margin-top: 30px;
+    transition: all 1s;
+}
+.children:hover{
+   transform: scale(1,1.1); 
+}
+.children h3{
+    text-align: center;
+    color: white;
+    letter-spacing: 2.7px;
+    margin-top: 8px;
+}
+.children h4{
+    text-align: center;
+    color: white;
+    letter-spacing: 2.7px;
+    margin-top: 6px;
+}
+
+/*debut de footer*/
+
+.pdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 30px;
+    width: 106.4%;
+    height: 400px;
+    border-top:2px solid white ;
+}
+.div1 img{
+    width: 8%;
+    height: 8%;
+}
+.div1{
+    display: flex;
+    flex-direction: column;
+    width: 23%;
+}
+.d1{
+    position: relative;
+    bottom: 25px;
+    right: 30px;
+}
+.d1 h1{
+    color: white;
+    border: 3px solid white;
+    width: 48%;
+    border-top-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+    padding: 3px 5px;
+}
+.d1 p{
+    margin-top: 53px;
+    color: white;
+}
+.d2{
+   position: relative;
+    left: 40px;
+    bottom: 13px;
+}
+.d2 h2{
+    color: white;
+    
+}
+.d2 h3{
+   padding-top: 15px;
+  color: white;
+  /* margin: 7px; */
+}
+.d3{
+    position: relative;
+    left: 90px;
+    top: 5px;
+}
+.d3 h2{
+    color: white;
+    
+
+}
+.d3 h3{
+   padding-top: 15px;
+  color: white;
+  /* margin: 7px; */
+}
+.d4{
+    position: relative;
+    top: 30px;
+    right: -30px;
+}
+.d4 h2{
+   color: white;
+}
+.mdiv4{
+    display: flex;
+    flex-direction: row;
+
+}
+.mdiv4 img{
+   border: 1.6px solid white; 
+   padding: 3px 3px;
+   margin-top: 35px;
+   background-color: white;
+}
+.mdiv4 h3{
+    color: white;
+    margin-top: 25px;
+    margin-left: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
